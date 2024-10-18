@@ -136,3 +136,10 @@ footer {
     width: 100%;
     z-index: 20;
 }
+
+@media (max-width: 768px) {
+    nav ul li {
+        display:block;
+        margin: 10px 0;
+    
+}
