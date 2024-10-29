@@ -159,16 +159,19 @@ footer {
 @media only screen and (max-width: 600px) {
     header, footer {
         padding: 10px;
+        font-size: 10px;
     }
 
     .box {
         display: block;
         text-align: center;
         margin: 5px 0;
+        width: 10%;
     }
 
     section {
         padding: 10px;
         margin: 10px;
+        width: 90%;
     }
 }
