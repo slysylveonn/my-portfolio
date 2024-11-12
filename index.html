@@ -73,7 +73,35 @@
     <section id="contact">
         <img src="https://images.freeimages.com/image/thumbs/c78/sky-cloud-icon-nature-png-5691835.png" class="cloud">
         <h2>Contact Me</h2>
-        <p>In the future, this will be a contact form. For now, just leave this as a placeholder.</p>
+        <p><form action="#" method="POST">
+            <label for="name">Full name: </label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="12" id="phone" name="number" required>
+    
+            <br>
+            <br>
+            
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="select">Which contact method do you prefer? </label>
+        <select name="select" id="select" required>
+            <option value="Phone">Phone</option>
+            <option value="Email">Email</option>
+        </select>
+<br><br>
+<textarea name="textarea" id="contact-form">Please enter your message here.</textarea>
+<br><br>
+<button type="submit" id="submit">Send</button>
+
+
+
+            </form>
+        </p>
         <br>
         <br>
             <img src="https://images.freeimages.com/image/thumbs/c78/sky-cloud-icon-nature-png-5691835.png" class="cloud">
