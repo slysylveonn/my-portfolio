@@ -43,7 +43,10 @@ h2 {
     color: rgba(255, 153, 0);
 
 }
-
+h3 {
+    color: rgba(255, 153, 0);
+    font-style: italic;
+}
 .one {
     position: fixed;
     top: 5%;
@@ -182,9 +185,8 @@ footer {
     content: attr(title);
 }
 
-.descbox, .descbox2 {
-    height: 50px;
-    width: 200px;
+#regDesc, #compDesc {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {

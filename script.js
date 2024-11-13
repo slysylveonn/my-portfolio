@@ -10,26 +10,32 @@ let messageSaved = document.getElementById("contact-form");                   //
 
 
 
-
-    function toggleDesc() {
-        let regDesc = document.getElementById("regDesc");
-        if (regDesc.style.display === "none") {
-            regDesc.style.display = "block"; // hide content
-          } else {
-            regDesc.style.display = "none"; // show content
-          }
-        }
-    
-    
-function toggleDesc2() {
+//registration
+let registration = document.getElementById("registration");
+registration.addEventListener('click', function (event) {
+    event.preventDefault();
+    let regDesc = document.getElementById("regDesc");
+    if (regDesc.style.display === "none") {
+        regDesc.style.display = "block"; // hide content
+    } else {
+        regDesc.style.display = "none"; // show content
+    }
+});
+//company
+let company = document.getElementById("company");
+company.addEventListener('click', function (event) {
+    event.preventDefault();
     let companyDesc = document.getElementById("compDesc");
     if (companyDesc.style.display === "none") {
-        companyDesc.style.display = "block"; 
-      } else {
-        companyDesc.style.display = "none"; 
-      }
+        companyDesc.style.display = "block";
+    } else {
+        companyDesc.style.display = "none";
     }
+});
 
+// id="regDesc"
+
+// id="compDesc"
 
 
 
