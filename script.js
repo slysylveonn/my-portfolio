@@ -1,8 +1,40 @@
+let companyProject = document.getElementById("company");
+let registrationProject = document.getElementById("registration");          //portfolio buttons
+
+
 let nameSaved = document.getElementById("name");
 let emailSaved = document.getElementById("email");
 let phoneSaved = document.getElementById("phone");
 let contactMethod = document.getElementById("select");
-let messageSaved = document.getElementById("contact-form");
+let messageSaved = document.getElementById("contact-form");                   //contact form
+
+
+
+
+    function toggleDesc() {
+        let regDesc = document.getElementById("regDesc");
+        if (regDesc.style.display === "none") {
+            regDesc.style.display = "block"; // hide content
+          } else {
+            regDesc.style.display = "none"; // show content
+          }
+        }
+    
+    
+function toggleDesc2() {
+    let companyDesc = document.getElementById("compDesc");
+    if (companyDesc.style.display === "none") {
+        companyDesc.style.display = "block"; 
+      } else {
+        companyDesc.style.display = "none"; 
+      }
+    }
+
+
+
+
+
+
 
 let submit = document.getElementById("submit");
 

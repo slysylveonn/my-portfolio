@@ -37,9 +37,9 @@
         <br><br>
         <a href="#contact">Contact</a>
         <br><br>
-        link here
+        <a href="https://github.com/slysylveonn/">Github</a>
         <br><br>
-        link here
+        <a href="www.linkedin.com/in/sophie-gelly-252085186">Linkedin</a>
         <br><br>
         link here
         <br><br>
@@ -68,13 +68,21 @@
     <section id="projects">
         <img src="https://images.freeimages.com/image/thumbs/c78/sky-cloud-icon-nature-png-5691835.png" class="cloud">
         <h2>My Projects</h2>
-        <p>This is a placeholder for your projects. In future chapters, you’ll add real projects here.</p>
+        <p><table class="projecttable"><tr><th>Registration Form</th><th>Company Website</th></tr><tr><td>
+            <button onclick= toggleDesc() class="projbutton" id="registration">
+                <img title="Click image to show/hide project description" src="https://cdn-icons-png.flaticon.com/256/577/577600.png" class="projbutton"></button></td>
+            <td><button onclick= toggleDesc2() class="projbutton" id="company">
+                <img title="Click image to show/hide project description" src="https://cdn-icons-png.flaticon.com/256/577/577600.png" class="projbutton"></button></td></tr>
+                <tr><td class="descbox" id="regDesc">User-friendly registration form simulating signing up for a yoga studio<br><a href="https://slysylveonn.github.io/Yogaregistration/">Visit site</a></td><td class= "descbox2" id="compDesc">CSS-stylized company website including interactive flex box and images<br><a href="https://slysylveonn.github.io/csslab4/">Visit site</a></td></tr></table></p>
     </section>
 
     <section id="contact">
         <img src="https://images.freeimages.com/image/thumbs/c78/sky-cloud-icon-nature-png-5691835.png" class="cloud">
         <h2>Contact Me</h2>
-        <p><form action="#" method="POST">
+        <p>
+            <br>
+            Thank you for your inquiry! <br> I will do my best to get back to all messages and requests within 1-2 business days.
+            <br>Please select whether you would prefer to communicate via text (phone) or email.<br><br><form action="#" method="POST">
             <label for="name">Full name: </label>
             <input type="text" id="name" name="name" required>
             <br>
@@ -97,7 +105,7 @@
 <br><br>
 <textarea name="textarea" id="contact-form">Please enter your message here.</textarea>
 <br><br>
-<button type="submit" id="submit">Send</button>
+<button class="submit" type="submit" id="submit">Send</button>
 
 
 

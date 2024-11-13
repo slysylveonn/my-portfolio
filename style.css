@@ -80,6 +80,10 @@ h2 {
     height: 80px;
     border-radius: 3%;
 }
+.one:hover, .two:hover, .three:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+}
 
 .flex-container {
     display: flex;
@@ -147,7 +151,7 @@ footer {
 
 }
 
-button  {
+.submit  {
     background-color: rgba(163, 250, 250);
     color:rgba(255, 153, 0);
     border-style: solid;
@@ -156,10 +160,31 @@ button  {
     font-style: bold;
 
 }
-button:hover {
+.submit:hover {
     background-color: rgba(255, 153, 0);
     color: black;
     cursor: crosshair;
+}
+
+.projecttable {
+    margin-left: auto;
+    margin-right:auto;
+    border: none;
+}
+.projbutton {
+    background-color: transparent;
+    border: none;
+    color: none;
+}
+.projbutton:hover {
+    background-color: rgba(163, 250, 250, 0.7);
+    cursor: crosshair;
+    content: attr(title);
+}
+
+.descbox, .descbox2 {
+    height: 50px;
+    width: 200px;
 }
 
 @media only screen and (max-width: 600px) {
