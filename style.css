@@ -124,7 +124,11 @@ a:hover {
 .cloud{
     margin-left: auto;
 }
-
+.profilepic {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
 section {
     padding: 20px;
     margin: 50px;
