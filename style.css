@@ -6,6 +6,44 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+
+.dark-theme {
+    color: #eee;
+    background: #393939;
+  }
+
+.dark-theme header {
+    background-image:url('https://pics.freeartbackgrounds.com/fullhd/Sea_Sunset_Background-1064.jpg');
+
+  }
+  .dark-theme h1 {
+    color: black;
+  }
+  .dark-theme a:link {
+    color: white;
+  }
+  .dark-theme a:visited {
+    color: white;
+  }
+  .dark-theme section {
+
+    box-shadow: 0 0 10px rgba(255, 153, 0);
+  }
+  .dark-theme .dark {
+    color: white;
+  }
+  .dark {
+    background: none;
+    border: none;
+    font-family:helvetica;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .dark:hover {
+    cursor:crosshair;
+    background-color: rgba(255, 153, 0, 0.6);
+  }
+  
 a:link { 
     text-decoration: none; 
   } 
@@ -109,7 +147,6 @@ a:hover {
 }
 
 .box{
-    background-color: white;
     width: 10%;
     right: 0%;
     top: 0%;
@@ -136,7 +173,6 @@ section {
     width: 85%;
     text-align: center;
     box-shadow: 0 0 10px rgba(163, 250, 250, 0.7);
-    background-color: white;
     border-radius: 8%;
 }
 textarea {
@@ -145,7 +181,6 @@ textarea {
 }
 
 footer {
-    background-color: white;
     color: rgb(184, 110, 0, 0.5);
     text-align: center;
     font-size: 12px;
