@@ -235,7 +235,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    header {
+    h1 {
         padding: 10px;
         font-size: 5%;
     }
