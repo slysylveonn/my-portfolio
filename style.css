@@ -235,8 +235,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 8%;
-        margin-top: 3%;
+        font-size: 15px;
+        margin-top: 14%;
         margin-left: 0%;
     }
 
