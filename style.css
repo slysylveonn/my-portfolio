@@ -246,6 +246,9 @@ footer {
         margin: 5px 0;
         width: 30%;
     }
+    .messageBox {
+        width: 60%;
+    }
 
     section {
         padding: 10px;
