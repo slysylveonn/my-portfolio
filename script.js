@@ -1,14 +1,25 @@
-let companyProject = document.getElementById("company");
-let registrationProject = document.getElementById("registration");          //portfolio buttons
 
 
 let nameSaved = document.getElementById("name");
 let emailSaved = document.getElementById("email");
 let phoneSaved = document.getElementById("phone");
 let contactMethod = document.getElementById("select");
-let messageSaved = document.getElementById("contact-form");                   //contact form
+let messageSaved = document.getElementById("contact-form");                   //contact form local storage elements
 
 
+//show/hide toggle description buttons for portfolio items
+
+//nutrition
+let nutrition = document.getElementById("nutrition");
+nutrition.addEventListener('click', function (event) {
+    event.preventDefault();
+    let nutDesc = document.getElementById("nutDesc");
+    if (nutDesc.style.display === "none") {
+        nutDesc.style.display = "block";
+    } else {
+        nutDesc.style.display = "none";
+    }
+});
 
 //registration
 let registration = document.getElementById("registration");
@@ -32,12 +43,6 @@ company.addEventListener('click', function (event) {
         companyDesc.style.display = "none";
     }
 });
-
-// id="regDesc"
-
-// id="compDesc"
-
-
 
 
 
