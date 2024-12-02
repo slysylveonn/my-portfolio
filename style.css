@@ -6,7 +6,9 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .dark-theme {
     color: #ffb700;
     background: #393939;
