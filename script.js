@@ -45,7 +45,7 @@ company.addEventListener('click', function (event) {
 });
 
 
-
+//form validation and submit messages
 
 let submit = document.getElementById("submit");
 
